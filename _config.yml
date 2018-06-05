@@ -35,8 +35,8 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : 5 
-    colorscheme          : # "light" (default), "dark"
+    num_posts            : 3 
+    colorscheme          : "dark"
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : # "master"
@@ -197,7 +197,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 
+paginate: 3
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -269,7 +269,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
       related: true

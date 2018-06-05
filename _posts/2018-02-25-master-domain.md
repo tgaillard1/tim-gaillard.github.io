@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title:  "Master of my 'Domain' - Hybrid Cloud within reach"
 date:   2018-02-25
 ---
